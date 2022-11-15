@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_wisata"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_wisata"
+            app:layout_constraintEnd_toStartOf="@+id/iv_wisata"
+            tools:text="Judul Wisata" />
+
+        <TextView
+            android:id="@+id/tv_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_wisata"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="@tools:sample/lorem/random" />
+
+        <ImageView
+            android:id="@+id/iv_wisata"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/tv_deskripsi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/gililombok" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GiliLambok"
+                tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/iv_wisata"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/tv_deskripsi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/danausentasi"
+            tools:ignore="DuplicateIds" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DanauSentasi"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/iv_wisata"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/tv_deskripsi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/pulaukomodo"
+            tools:ignore="DuplicateIds" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PulauKomodo"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/iv_wisata"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/tv_deskripsi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/rajaampat"
+            tools:ignore="DuplicateIds" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RajaAmpat"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/iv_wisata"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/tv_deskripsi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/tamanlautbunaken"
+            tools:ignore="DuplicateIds" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RajaAmpat"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
